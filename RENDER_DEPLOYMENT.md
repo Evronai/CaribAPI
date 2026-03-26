@@ -33,7 +33,7 @@ git commit -m "CaribAPI - Ready for Render deployment"
 
 # Create repo on GitHub (or use existing)
 # Then push:
-git remote add origin https://github.com/YOUR_USERNAME/CaribAPI.git
+git remote add origin https://github.com/Evronai/CaribAPI.git
 git push -u origin main
 ```
 
@@ -41,7 +41,7 @@ git push -u origin main
 
 #### **Option A: One-Click Deploy (Easiest)**
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/YOUR_USERNAME/CaribAPI)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Evronai/CaribAPI)
 
 1. **Click the button above** (after updating with your repo URL)
 2. **Sign in with GitHub**
@@ -126,9 +126,9 @@ https://caribapi.onrender.com
 
 **One-click deploy to Render:**
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/YOUR_USERNAME/CaribAPI)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Evronai/CaribAPI)
 
-*(Replace `YOUR_USERNAME` with your GitHub username)*
+*(Replace `Evronai` with your GitHub username)*
 
 ## 📁 Project Structure for Render
 

@@ -40,12 +40,12 @@ Month 12: $10,000+
 ## 🚀 Quick Deployment
 
 ### Deploy in 5 minutes:
-- **Render:** [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/YOUR_USERNAME/CaribAPI)
+- **Render:** [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Evronai/CaribAPI)
 - **Railway:** [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https://github.com/Evronai/CaribAPI)
 
 ### Local Development:
 ```bash
-git clone https://github.com/YOUR_USERNAME/CaribAPI.git
+git clone https://github.com/Evronai/CaribAPI.git
 cd CaribAPI
 python test_minimal.py  # Test without database
 # Access: http://localhost:8000/docs

@@ -32,7 +32,7 @@ git commit -m "CaribAPI - Ready for Railway deployment"
 
 # Create repo on GitHub (or use existing)
 # Then push:
-git remote add origin https://github.com/YOUR_USERNAME/CaribAPI.git
+git remote add origin https://github.com/Evronai/CaribAPI.git
 git push -u origin main
 ```
 

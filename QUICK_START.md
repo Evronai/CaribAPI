@@ -204,7 +204,7 @@ Want to help improve CaribAPI?
 ## 🚀 Production Deployment
 
 ### One-Click Deploy:
-- **Render:** [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/YOUR_USERNAME/CaribAPI)
+- **Render:** [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Evronai/CaribAPI)
 - **Railway:** [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https://github.com/Evronai/CaribAPI)
 
 ### Detailed Guides:

@@ -3,7 +3,7 @@
 ## **Choose Your Platform:**
 
 ### **Option 1: Deploy on Render (Recommended)**
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/YOUR_USERNAME/CaribAPI)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Evronai/CaribAPI)
 
 **Steps:**
 1. **Push to GitHub** (if not already done)
@@ -112,7 +112,7 @@ curl -H "X-API-Key: test_api_key_1234567890" \
 **Choose your platform & method:**
 
 ### **A. Deploy on Render (Recommended):**
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/YOUR_USERNAME/CaribAPI)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Evronai/CaribAPI)
 
 ### **B. Deploy on Railway:**
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https://github.com/Evronai/CaribAPI)
