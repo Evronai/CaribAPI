@@ -1,5 +1,4 @@
 from sqlalchemy import Column, String, Integer, Text, Boolean, DateTime, Float, JSON
-from sqlalchemy.dialects.postgresql import ARRAY
 from sqlalchemy.sql import func
 from app.models.base import BaseModel
 
@@ -40,8 +39,8 @@ class Business(BaseModel):
     shareholders = Column(JSON)  # List of shareholder info
     
     # Additional data
-    sic_codes = Column(ARRAY(String))  # Standard Industrial Classification
-    naics_codes = Column(ARRAY(String))  # North American Industry Classification
+    sic_codes = Column(JSON)  # Standard Industrial Classification (stored as JSON list)
+    naics_codes = Column(JSON)  # North American Industry Classification (stored as JSON list)
     
     # Location data
     latitude = Column(Float)
