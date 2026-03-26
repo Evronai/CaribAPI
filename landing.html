@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaribAPI - Caribbean Business Data API</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            padding: 40px 0;
+            text-align: center;
+            color: white;
+        }
+        
+        .logo {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+        
+        .hero {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #2d3748;
+        }
+        
+        .hero p {
+            font-size: 1.1rem;
+            color: #4a5568;
+            margin-bottom: 30px;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 15px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #5a67d8;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .btn-secondary {
+            background: #edf2f7;
+            color: #4a5568;
+            border: 2px solid #e2e8f0;
+        }
+        
+        .btn-secondary:hover {
+            background: #e2e8f0;
+            transform: translateY(-2px);
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .feature-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+        
+        .feature-card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: #2d3748;
+        }
+        
+        .pricing {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+        }
+        
+        .pricing h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #2d3748;
+        }
+        
+        .pricing-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .pricing-card {
+            border: 2px solid #e2e8f0;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .pricing-card.featured {
+            border-color: #667eea;
+            transform: scale(1.05);
+            box-shadow: 0 20px 40px rgba(102, 126, 234, 0.1);
+        }
+        
+        .pricing-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #2d3748;
+        }
+        
+        .price {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #667eea;
+            margin: 20px 0;
+        }
+        
+        .price span {
+            font-size: 1rem;
+            color: #718096;
+        }
+        
+        .pricing-features {
+            list-style: none;
+            margin: 20px 0;
+            text-align: left;
+        }
+        
+        .pricing-features li {
+            padding: 10px 0;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .pricing-features li:last-child {
+            border-bottom: none;
+        }
+        
+        .check {
+            color: #48bb78;
+        }
+        
+        .api-demo {
+            background: #f7fafc;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+        }
+        
+        .api-demo h2 {
+            margin-bottom: 30px;
+            color: #2d3748;
+        }
+        
+        .code-block {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: white;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .pricing-card.featured {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">CaribAPI</div>
+            <div class="tagline">Caribbean Business Data Platform</div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="hero">
+            <h1>Access Caribbean Business Data via API</h1>
+            <p>Build applications with real-time access to Trinidad & Caribbean business registries, company information, and market intelligence. Fully automated, always up-to-date.</p>
+            
+            <div class="cta-buttons">
+                <a href="#pricing" class="btn btn-primary">
+                    <span>🚀 Start Free Trial</span>
+                </a>
+                <a href="#demo" class="btn btn-secondary">
+                    <span>📚 View Documentation</span>
+                </a>
+                <a href="https://github.com/Evronai/CaribAPI" class="btn btn-secondary" target="_blank">
+                    <span>💻 View on GitHub</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="features">
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Comprehensive Data</h3>
+                <p>Access to Trinidad business registry, company details, directors, financial data, and more. Updated daily.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Real-time API</h3>
+                <p>RESTful API with fast response times. Rate limiting, authentication, and full documentation included.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">💰</div>
+                <h3>Automated Revenue</h3>
+                <p>Set up once, earn recurring revenue. Free, Pro ($49/mo), and Business ($199/mo) plans available.</p>
+            </div>
+        </div>
+        
+        <div class="pricing" id="pricing">
+            <h2>Simple, Transparent Pricing</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Free</h3>
+                    <div class="price">$0<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> 100 requests/day</li>
+                        <li><span class="check">✓</span> Trinidad data only</li>
+                        <li><span class="check">✓</span> Basic search</li>
+                        <li><span class="check">✓</span> Community support</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">Get Started</a>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <h3>Pro</h3>
+                    <div class="price">$49<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> 10,000 requests/day</li>
+                        <li><span class="check">✓</span> All Caribbean countries</li>
+                        <li><span class="check">✓</span> Advanced filters</li>
+                        <li><span class="check">✓</span> Email support</li>
+                        <li><span class="check">✓</span> API documentation</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Start Free Trial</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Business</h3>
+                    <div class="price">$199<span>/month</span></div>
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> 100,000 requests/day</li>
+                        <li><span class="check">✓</span> Webhook support</li>
+                        <li><span class="check">✓</span> Priority support</li>
+                        <li><span class="check">✓</span> Custom data requests</li>
+                        <li><span class="check">✓</span> SLA guarantee</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="api-demo" id="demo">
+            <h2>API Examples</h2>
+            <p>Integrate Caribbean business data in minutes with our simple REST API:</p>
+            
+            <div class="code-block">
+// Get all businesses in Port of Spain
+GET /api/v1/businesses/?city=Port%20of%20Spain
+<br><br>
+// Search for businesses
+GET /api/v1/businesses/search?q=brewery
+<br><br>
+// Get business by registration number
+GET /api/v1/businesses/registration/TRN20240001
+<br><br>
+// Authentication header
+X-API-Key: your_api_key_here
+            </div>
+            
+            <p>Full documentation available at <code>/docs</code> endpoint when API is running.</p>
+        </div>
+        
+        <div class="hero">
+            <h2>Ready to Start Your API Business?</h2>
+            <p>CaribAPI is production-ready. Deploy in minutes, start earning in days.</p>
+            
+            <div class="cta-buttons">
+                <a href="https://railway.app" class="btn btn-primary" target="_blank">
+                    <span>🚀 Deploy on Railway (Free)</span>
+                </a>
+                <a href="https://github.com/Evronai/CaribAPI" class="btn btn-secondary" target="_blank">
+                    <span>📦 Download Source Code</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>CaribAPI &copy; 2026 - Caribbean Business Data Platform</p>
+            <p>Fully automated API business • Recurring revenue • Production ready</p>
+            <p style="margin-top: 20px; font-size: 0.9rem;">
+                <a href="https://github.com/Evronai/CaribAPI" style="color: white; text-decoration: underline;">GitHub</a> • 
+                <a href="mailto:contact@caribapi.com" style="color: white; text-decoration: underline;">Contact</a> • 
+                <a href="#" style="color: white; text-decoration: underline;">Terms</a> • 
+                <a href="#" style="color: white; text-decoration: underline;">Privacy</a>
+            </p>
+        </div>
+    </footer>
+    
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 20,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Update year in footer
+        document.querySelector('footer p:first-child').innerHTML = 
+            `CaribAPI &copy; ${new Date().getFullYear()} - Caribbean Business Data Platform`;
+    </script>
+</body>
+</html>

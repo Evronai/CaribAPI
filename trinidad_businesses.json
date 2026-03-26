@@ -1,0 +1,1352 @@
+[
+  {
+    "registration_number": "TRN20230001",
+    "name": "Transportation Company 1 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "821 Ariapita Avenue",
+    "city": "Diego Martin",
+    "region": "Diego Martin",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-668-7525",
+    "email": "info@company1.com",
+    "website": "https://company1.com",
+    "industry": "Transportation",
+    "sub_industry": "Transportation Services",
+    "status": "Inactive",
+    "registration_date": "2023-01-27",
+    "annual_revenue_range": "$10M-$50M",
+    "employee_count_range": "10-25",
+    "directors": [
+      {
+        "name": "Director 1",
+        "position": "Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 98,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230002",
+    "name": "Energy Company 2 Ltd",
+    "business_type": "Limited Liability",
+    "registered_address": "300 Ariapita Avenue",
+    "city": "Diego Martin",
+    "region": "Diego Martin",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-635-8100",
+    "email": "info@company2.com",
+    "website": "https://company2.com",
+    "industry": "Energy",
+    "sub_industry": "Energy Services",
+    "status": "Active",
+    "registration_date": "2023-03-13",
+    "annual_revenue_range": "$50K-$100K",
+    "employee_count_range": "10-25",
+    "directors": [
+      {
+        "name": "Director 2",
+        "position": "CEO"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 100,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230003",
+    "name": "Manufacturing Company 3 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "438 Ariapita Avenue",
+    "city": "Princes Town",
+    "region": "Princes Town",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-682-7457",
+    "email": "info@company3.com",
+    "website": "https://company3.com",
+    "industry": "Manufacturing",
+    "sub_industry": "Manufacturing Services",
+    "status": "Inactive",
+    "registration_date": "2023-01-12",
+    "annual_revenue_range": "$1M-$5M",
+    "employee_count_range": "100-250",
+    "directors": [
+      {
+        "name": "Director 3",
+        "position": "Director"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 89,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230004",
+    "name": "Agriculture Company 4 Ltd",
+    "business_type": "Corporation",
+    "registered_address": "201 Independence Square",
+    "city": "Arima",
+    "region": "Arima",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-665-7029",
+    "email": "info@company4.com",
+    "website": "https://company4.com",
+    "industry": "Agriculture",
+    "sub_industry": "Agriculture Services",
+    "status": "Dissolved",
+    "registration_date": "2023-05-14",
+    "annual_revenue_range": "$500K-$1M",
+    "employee_count_range": "10-25",
+    "directors": [
+      {
+        "name": "Director 4",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 52,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230005",
+    "name": "Technology Company 5 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "403 Ariapita Avenue",
+    "city": "Tunapuna",
+    "region": "Tunapuna",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-690-7085",
+    "email": "info@company5.com",
+    "website": "https://company5.com",
+    "industry": "Technology",
+    "sub_industry": "Technology Services",
+    "status": "Active",
+    "registration_date": "2023-12-11",
+    "annual_revenue_range": "$250K-$500K",
+    "employee_count_range": "50-100",
+    "directors": [
+      {
+        "name": "Director 5",
+        "position": "Managing Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 69,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230006",
+    "name": "Finance Company 6 Ltd",
+    "business_type": "Corporation",
+    "registered_address": "705 Ariapita Avenue",
+    "city": "Couva",
+    "region": "Couva",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-686-7454",
+    "email": "info@company6.com",
+    "website": "https://company6.com",
+    "industry": "Finance",
+    "sub_industry": "Finance Services",
+    "status": "Active",
+    "registration_date": "2023-07-25",
+    "annual_revenue_range": "$1M-$5M",
+    "employee_count_range": "25-50",
+    "directors": [
+      {
+        "name": "Director 6",
+        "position": "Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 91,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230007",
+    "name": "Manufacturing Company 7 Ltd",
+    "business_type": "Corporation",
+    "registered_address": "34 Wrightson Road",
+    "city": "Port of Spain",
+    "region": "Port of Spain",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-618-6979",
+    "email": "info@company7.com",
+    "website": "https://company7.com",
+    "industry": "Manufacturing",
+    "sub_industry": "Manufacturing Services",
+    "status": "Inactive",
+    "registration_date": "2023-09-08",
+    "annual_revenue_range": "$250K-$500K",
+    "employee_count_range": "1-10",
+    "directors": [
+      {
+        "name": "Director 7",
+        "position": "Director"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 84,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230008",
+    "name": "Technology Company 8 Ltd",
+    "business_type": "Corporation",
+    "registered_address": "536 Wrightson Road",
+    "city": "Princes Town",
+    "region": "Princes Town",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-651-6140",
+    "email": "info@company8.com",
+    "website": "https://company8.com",
+    "industry": "Technology",
+    "sub_industry": "Technology Services",
+    "status": "Active",
+    "registration_date": "2023-10-28",
+    "annual_revenue_range": "$250K-$500K",
+    "employee_count_range": "1-10",
+    "directors": [
+      {
+        "name": "Director 8",
+        "position": "Director"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 73,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230009",
+    "name": "Healthcare Company 9 Ltd",
+    "business_type": "Limited Liability",
+    "registered_address": "572 Wrightson Road",
+    "city": "Port of Spain",
+    "region": "Port of Spain",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-690-3179",
+    "email": "info@company9.com",
+    "website": "https://company9.com",
+    "industry": "Healthcare",
+    "sub_industry": "Healthcare Services",
+    "status": "Inactive",
+    "registration_date": "2023-04-07",
+    "annual_revenue_range": "$500K-$1M",
+    "employee_count_range": "1-10",
+    "directors": [
+      {
+        "name": "Director 9",
+        "position": "Director"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 75,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230010",
+    "name": "Agriculture Company 10 Ltd",
+    "business_type": "Corporation",
+    "registered_address": "785 Independence Square",
+    "city": "Tunapuna",
+    "region": "Tunapuna",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-613-3970",
+    "email": "info@company10.com",
+    "website": "https://company10.com",
+    "industry": "Agriculture",
+    "sub_industry": "Agriculture Services",
+    "status": "Active",
+    "registration_date": "2023-11-06",
+    "annual_revenue_range": "$5M-$10M",
+    "employee_count_range": "10-25",
+    "directors": [
+      {
+        "name": "Director 10",
+        "position": "Managing Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 57,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230011",
+    "name": "Finance Company 11 Ltd",
+    "business_type": "Sole Proprietor",
+    "registered_address": "563 Independence Square",
+    "city": "Princes Town",
+    "region": "Princes Town",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-644-1173",
+    "email": "info@company11.com",
+    "website": "https://company11.com",
+    "industry": "Finance",
+    "sub_industry": "Finance Services",
+    "status": "Dissolved",
+    "registration_date": "2023-10-22",
+    "annual_revenue_range": "$5M-$10M",
+    "employee_count_range": "100-250",
+    "directors": [
+      {
+        "name": "Director 11",
+        "position": "CEO"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 68,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230012",
+    "name": "Healthcare Company 12 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "431 Ariapita Avenue",
+    "city": "Chaguanas",
+    "region": "Chaguanas",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-676-5969",
+    "email": "info@company12.com",
+    "website": "https://company12.com",
+    "industry": "Healthcare",
+    "sub_industry": "Healthcare Services",
+    "status": "Inactive",
+    "registration_date": "2023-08-09",
+    "annual_revenue_range": "$5M-$10M",
+    "employee_count_range": "25-50",
+    "directors": [
+      {
+        "name": "Director 12",
+        "position": "Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 58,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230013",
+    "name": "Tourism Company 13 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "274 Ariapita Avenue",
+    "city": "Port of Spain",
+    "region": "Port of Spain",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-631-7130",
+    "email": "info@company13.com",
+    "website": "https://company13.com",
+    "industry": "Tourism",
+    "sub_industry": "Tourism Services",
+    "status": "Inactive",
+    "registration_date": "2023-07-15",
+    "annual_revenue_range": "$50K-$100K",
+    "employee_count_range": "10-25",
+    "directors": [
+      {
+        "name": "Director 13",
+        "position": "Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 84,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230014",
+    "name": "Transportation Company 14 Ltd",
+    "business_type": "Sole Proprietor",
+    "registered_address": "200 Wrightson Road",
+    "city": "San Fernando",
+    "region": "San Fernando",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-675-1742",
+    "email": "info@company14.com",
+    "website": "https://company14.com",
+    "industry": "Transportation",
+    "sub_industry": "Transportation Services",
+    "status": "Dissolved",
+    "registration_date": "2023-08-21",
+    "annual_revenue_range": "$500K-$1M",
+    "employee_count_range": "100-250",
+    "directors": [
+      {
+        "name": "Director 14",
+        "position": "CEO"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 63,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230015",
+    "name": "Retail Company 15 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "415 Wrightson Road",
+    "city": "Couva",
+    "region": "Couva",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-631-4229",
+    "email": "info@company15.com",
+    "website": "https://company15.com",
+    "industry": "Retail",
+    "sub_industry": "Retail Services",
+    "status": "Dissolved",
+    "registration_date": "2023-04-06",
+    "annual_revenue_range": "$5M-$10M",
+    "employee_count_range": "10-25",
+    "directors": [
+      {
+        "name": "Director 15",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 67,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230016",
+    "name": "Construction Company 16 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "847 Independence Square",
+    "city": "Tunapuna",
+    "region": "Tunapuna",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-611-9219",
+    "email": "info@company16.com",
+    "website": "https://company16.com",
+    "industry": "Construction",
+    "sub_industry": "Construction Services",
+    "status": "Active",
+    "registration_date": "2023-09-14",
+    "annual_revenue_range": "$500K-$1M",
+    "employee_count_range": "50-100",
+    "directors": [
+      {
+        "name": "Director 16",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 50,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230017",
+    "name": "Transportation Company 17 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "394 Independence Square",
+    "city": "Couva",
+    "region": "Couva",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-604-8301",
+    "email": "info@company17.com",
+    "website": "https://company17.com",
+    "industry": "Transportation",
+    "sub_industry": "Transportation Services",
+    "status": "Active",
+    "registration_date": "2023-06-14",
+    "annual_revenue_range": "$250K-$500K",
+    "employee_count_range": "1-10",
+    "directors": [
+      {
+        "name": "Director 17",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 57,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230018",
+    "name": "Construction Company 18 Ltd",
+    "business_type": "Limited Liability",
+    "registered_address": "362 Ariapita Avenue",
+    "city": "Scarborough",
+    "region": "Scarborough",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-604-4617",
+    "email": "info@company18.com",
+    "website": "https://company18.com",
+    "industry": "Construction",
+    "sub_industry": "Construction Services",
+    "status": "Inactive",
+    "registration_date": "2023-09-25",
+    "annual_revenue_range": "$5M-$10M",
+    "employee_count_range": "250-500",
+    "directors": [
+      {
+        "name": "Director 18",
+        "position": "Managing Director"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 67,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230019",
+    "name": "Retail Company 19 Ltd",
+    "business_type": "Sole Proprietor",
+    "registered_address": "45 Main Road",
+    "city": "Scarborough",
+    "region": "Scarborough",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-614-7081",
+    "email": "info@company19.com",
+    "website": "https://company19.com",
+    "industry": "Retail",
+    "sub_industry": "Retail Services",
+    "status": "Active",
+    "registration_date": "2023-02-26",
+    "annual_revenue_range": "$100K-$250K",
+    "employee_count_range": "250-500",
+    "directors": [
+      {
+        "name": "Director 19",
+        "position": "Managing Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 99,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230020",
+    "name": "Healthcare Company 20 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "253 Wrightson Road",
+    "city": "Diego Martin",
+    "region": "Diego Martin",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-664-7589",
+    "email": "info@company20.com",
+    "website": "https://company20.com",
+    "industry": "Healthcare",
+    "sub_industry": "Healthcare Services",
+    "status": "Active",
+    "registration_date": "2023-06-27",
+    "annual_revenue_range": "$1M-$5M",
+    "employee_count_range": "25-50",
+    "directors": [
+      {
+        "name": "Director 20",
+        "position": "CEO"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 77,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230021",
+    "name": "Transportation Company 21 Ltd",
+    "business_type": "Limited Liability",
+    "registered_address": "503 Wrightson Road",
+    "city": "San Fernando",
+    "region": "San Fernando",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-647-8797",
+    "email": "info@company21.com",
+    "website": "https://company21.com",
+    "industry": "Transportation",
+    "sub_industry": "Transportation Services",
+    "status": "Inactive",
+    "registration_date": "2023-05-12",
+    "annual_revenue_range": "$5M-$10M",
+    "employee_count_range": "1-10",
+    "directors": [
+      {
+        "name": "Director 21",
+        "position": "Managing Director"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 64,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230022",
+    "name": "Finance Company 22 Ltd",
+    "business_type": "Corporation",
+    "registered_address": "557 Independence Square",
+    "city": "Diego Martin",
+    "region": "Diego Martin",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-632-4570",
+    "email": "info@company22.com",
+    "website": "https://company22.com",
+    "industry": "Finance",
+    "sub_industry": "Finance Services",
+    "status": "Inactive",
+    "registration_date": "2023-07-25",
+    "annual_revenue_range": "$500K-$1M",
+    "employee_count_range": "50-100",
+    "directors": [
+      {
+        "name": "Director 22",
+        "position": "Managing Director"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 100,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230023",
+    "name": "Finance Company 23 Ltd",
+    "business_type": "Limited Liability",
+    "registered_address": "767 Ariapita Avenue",
+    "city": "Point Fortin",
+    "region": "Point Fortin",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-602-5479",
+    "email": "info@company23.com",
+    "website": "https://company23.com",
+    "industry": "Finance",
+    "sub_industry": "Finance Services",
+    "status": "Inactive",
+    "registration_date": "2023-08-27",
+    "annual_revenue_range": "$50K-$100K",
+    "employee_count_range": "100-250",
+    "directors": [
+      {
+        "name": "Director 23",
+        "position": "Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 86,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230024",
+    "name": "Technology Company 24 Ltd",
+    "business_type": "Sole Proprietor",
+    "registered_address": "419 Main Road",
+    "city": "Scarborough",
+    "region": "Scarborough",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-612-8212",
+    "email": "info@company24.com",
+    "website": "https://company24.com",
+    "industry": "Technology",
+    "sub_industry": "Technology Services",
+    "status": "Active",
+    "registration_date": "2023-08-25",
+    "annual_revenue_range": "$10M-$50M",
+    "employee_count_range": "1-10",
+    "directors": [
+      {
+        "name": "Director 24",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 67,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230025",
+    "name": "Technology Company 25 Ltd",
+    "business_type": "Corporation",
+    "registered_address": "817 Wrightson Road",
+    "city": "San Fernando",
+    "region": "San Fernando",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-628-1302",
+    "email": "info@company25.com",
+    "website": "https://company25.com",
+    "industry": "Technology",
+    "sub_industry": "Technology Services",
+    "status": "Active",
+    "registration_date": "2023-09-20",
+    "annual_revenue_range": "$500K-$1M",
+    "employee_count_range": "100-250",
+    "directors": [
+      {
+        "name": "Director 25",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 92,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230026",
+    "name": "Finance Company 26 Ltd",
+    "business_type": "Sole Proprietor",
+    "registered_address": "255 Wrightson Road",
+    "city": "Princes Town",
+    "region": "Princes Town",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-600-1400",
+    "email": "info@company26.com",
+    "website": "https://company26.com",
+    "industry": "Finance",
+    "sub_industry": "Finance Services",
+    "status": "Active",
+    "registration_date": "2023-08-03",
+    "annual_revenue_range": "$50K-$100K",
+    "employee_count_range": "50-100",
+    "directors": [
+      {
+        "name": "Director 26",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 60,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230027",
+    "name": "Finance Company 27 Ltd",
+    "business_type": "Sole Proprietor",
+    "registered_address": "468 Main Road",
+    "city": "Princes Town",
+    "region": "Princes Town",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-641-1875",
+    "email": "info@company27.com",
+    "website": "https://company27.com",
+    "industry": "Finance",
+    "sub_industry": "Finance Services",
+    "status": "Active",
+    "registration_date": "2023-08-04",
+    "annual_revenue_range": "$50K-$100K",
+    "employee_count_range": "25-50",
+    "directors": [
+      {
+        "name": "Director 27",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 77,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230028",
+    "name": "Transportation Company 28 Ltd",
+    "business_type": "Corporation",
+    "registered_address": "632 Wrightson Road",
+    "city": "Point Fortin",
+    "region": "Point Fortin",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-676-2086",
+    "email": "info@company28.com",
+    "website": "https://company28.com",
+    "industry": "Transportation",
+    "sub_industry": "Transportation Services",
+    "status": "Dissolved",
+    "registration_date": "2023-04-10",
+    "annual_revenue_range": "$1M-$5M",
+    "employee_count_range": "50-100",
+    "directors": [
+      {
+        "name": "Director 28",
+        "position": "Director"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 60,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230029",
+    "name": "Energy Company 29 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "744 Wrightson Road",
+    "city": "Scarborough",
+    "region": "Scarborough",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-666-6940",
+    "email": "info@company29.com",
+    "website": "https://company29.com",
+    "industry": "Energy",
+    "sub_industry": "Energy Services",
+    "status": "Active",
+    "registration_date": "2023-11-20",
+    "annual_revenue_range": "$100K-$250K",
+    "employee_count_range": "1-10",
+    "directors": [
+      {
+        "name": "Director 29",
+        "position": "Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 92,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230030",
+    "name": "Construction Company 30 Ltd",
+    "business_type": "Sole Proprietor",
+    "registered_address": "404 Ariapita Avenue",
+    "city": "Princes Town",
+    "region": "Princes Town",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-677-9004",
+    "email": "info@company30.com",
+    "website": "https://company30.com",
+    "industry": "Construction",
+    "sub_industry": "Construction Services",
+    "status": "Active",
+    "registration_date": "2023-10-12",
+    "annual_revenue_range": "$50K-$100K",
+    "employee_count_range": "25-50",
+    "directors": [
+      {
+        "name": "Director 30",
+        "position": "Managing Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 63,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230031",
+    "name": "Construction Company 31 Ltd",
+    "business_type": "Sole Proprietor",
+    "registered_address": "818 Independence Square",
+    "city": "Chaguanas",
+    "region": "Chaguanas",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-614-6094",
+    "email": "info@company31.com",
+    "website": "https://company31.com",
+    "industry": "Construction",
+    "sub_industry": "Construction Services",
+    "status": "Inactive",
+    "registration_date": "2023-01-01",
+    "annual_revenue_range": "$250K-$500K",
+    "employee_count_range": "100-250",
+    "directors": [
+      {
+        "name": "Director 31",
+        "position": "Managing Director"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 72,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230032",
+    "name": "Agriculture Company 32 Ltd",
+    "business_type": "Limited Liability",
+    "registered_address": "871 Independence Square",
+    "city": "Chaguanas",
+    "region": "Chaguanas",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-682-8891",
+    "email": "info@company32.com",
+    "website": "https://company32.com",
+    "industry": "Agriculture",
+    "sub_industry": "Agriculture Services",
+    "status": "Dissolved",
+    "registration_date": "2023-12-08",
+    "annual_revenue_range": "$10M-$50M",
+    "employee_count_range": "1-10",
+    "directors": [
+      {
+        "name": "Director 32",
+        "position": "Director"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 66,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230033",
+    "name": "Construction Company 33 Ltd",
+    "business_type": "Corporation",
+    "registered_address": "68 Independence Square",
+    "city": "Princes Town",
+    "region": "Princes Town",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-631-4756",
+    "email": "info@company33.com",
+    "website": "https://company33.com",
+    "industry": "Construction",
+    "sub_industry": "Construction Services",
+    "status": "Active",
+    "registration_date": "2023-04-22",
+    "annual_revenue_range": "$100K-$250K",
+    "employee_count_range": "10-25",
+    "directors": [
+      {
+        "name": "Director 33",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 76,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230034",
+    "name": "Technology Company 34 Ltd",
+    "business_type": "Sole Proprietor",
+    "registered_address": "680 Main Road",
+    "city": "Princes Town",
+    "region": "Princes Town",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-632-7136",
+    "email": "info@company34.com",
+    "website": "https://company34.com",
+    "industry": "Technology",
+    "sub_industry": "Technology Services",
+    "status": "Active",
+    "registration_date": "2023-08-03",
+    "annual_revenue_range": "$50K-$100K",
+    "employee_count_range": "1-10",
+    "directors": [
+      {
+        "name": "Director 34",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 83,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230035",
+    "name": "Technology Company 35 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "363 Independence Square",
+    "city": "Point Fortin",
+    "region": "Point Fortin",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-627-7487",
+    "email": "info@company35.com",
+    "website": "https://company35.com",
+    "industry": "Technology",
+    "sub_industry": "Technology Services",
+    "status": "Active",
+    "registration_date": "2023-12-04",
+    "annual_revenue_range": "$5M-$10M",
+    "employee_count_range": "100-250",
+    "directors": [
+      {
+        "name": "Director 35",
+        "position": "Managing Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 69,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230036",
+    "name": "Agriculture Company 36 Ltd",
+    "business_type": "Limited Liability",
+    "registered_address": "762 Independence Square",
+    "city": "San Fernando",
+    "region": "San Fernando",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-664-3131",
+    "email": "info@company36.com",
+    "website": "https://company36.com",
+    "industry": "Agriculture",
+    "sub_industry": "Agriculture Services",
+    "status": "Inactive",
+    "registration_date": "2023-11-11",
+    "annual_revenue_range": "$250K-$500K",
+    "employee_count_range": "1-10",
+    "directors": [
+      {
+        "name": "Director 36",
+        "position": "Managing Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 71,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230037",
+    "name": "Technology Company 37 Ltd",
+    "business_type": "Corporation",
+    "registered_address": "763 Wrightson Road",
+    "city": "Princes Town",
+    "region": "Princes Town",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-636-6689",
+    "email": "info@company37.com",
+    "website": "https://company37.com",
+    "industry": "Technology",
+    "sub_industry": "Technology Services",
+    "status": "Inactive",
+    "registration_date": "2023-03-12",
+    "annual_revenue_range": "$5M-$10M",
+    "employee_count_range": "50-100",
+    "directors": [
+      {
+        "name": "Director 37",
+        "position": "Director"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 94,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230038",
+    "name": "Finance Company 38 Ltd",
+    "business_type": "Sole Proprietor",
+    "registered_address": "422 Independence Square",
+    "city": "Princes Town",
+    "region": "Princes Town",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-602-9936",
+    "email": "info@company38.com",
+    "website": "https://company38.com",
+    "industry": "Finance",
+    "sub_industry": "Finance Services",
+    "status": "Dissolved",
+    "registration_date": "2023-10-01",
+    "annual_revenue_range": "$250K-$500K",
+    "employee_count_range": "250-500",
+    "directors": [
+      {
+        "name": "Director 38",
+        "position": "Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 60,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230039",
+    "name": "Energy Company 39 Ltd",
+    "business_type": "Sole Proprietor",
+    "registered_address": "376 Ariapita Avenue",
+    "city": "San Fernando",
+    "region": "San Fernando",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-657-3968",
+    "email": "info@company39.com",
+    "website": "https://company39.com",
+    "industry": "Energy",
+    "sub_industry": "Energy Services",
+    "status": "Active",
+    "registration_date": "2023-05-05",
+    "annual_revenue_range": "$50K-$100K",
+    "employee_count_range": "250-500",
+    "directors": [
+      {
+        "name": "Director 39",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 70,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230040",
+    "name": "Technology Company 40 Ltd",
+    "business_type": "Limited Liability",
+    "registered_address": "14 Independence Square",
+    "city": "San Fernando",
+    "region": "San Fernando",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-652-6878",
+    "email": "info@company40.com",
+    "website": "https://company40.com",
+    "industry": "Technology",
+    "sub_industry": "Technology Services",
+    "status": "Active",
+    "registration_date": "2023-11-14",
+    "annual_revenue_range": "$250K-$500K",
+    "employee_count_range": "50-100",
+    "directors": [
+      {
+        "name": "Director 40",
+        "position": "Managing Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 53,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230041",
+    "name": "Manufacturing Company 41 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "850 Wrightson Road",
+    "city": "Chaguanas",
+    "region": "Chaguanas",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-686-5344",
+    "email": "info@company41.com",
+    "website": "https://company41.com",
+    "industry": "Manufacturing",
+    "sub_industry": "Manufacturing Services",
+    "status": "Active",
+    "registration_date": "2023-04-12",
+    "annual_revenue_range": "$500K-$1M",
+    "employee_count_range": "1-10",
+    "directors": [
+      {
+        "name": "Director 41",
+        "position": "Managing Director"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 50,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230042",
+    "name": "Retail Company 42 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "981 Wrightson Road",
+    "city": "Diego Martin",
+    "region": "Diego Martin",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-633-3997",
+    "email": "info@company42.com",
+    "website": "https://company42.com",
+    "industry": "Retail",
+    "sub_industry": "Retail Services",
+    "status": "Dissolved",
+    "registration_date": "2023-12-06",
+    "annual_revenue_range": "$500K-$1M",
+    "employee_count_range": "25-50",
+    "directors": [
+      {
+        "name": "Director 42",
+        "position": "CEO"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 74,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230043",
+    "name": "Tourism Company 43 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "500 Main Road",
+    "city": "Port of Spain",
+    "region": "Port of Spain",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-671-9862",
+    "email": "info@company43.com",
+    "website": "https://company43.com",
+    "industry": "Tourism",
+    "sub_industry": "Tourism Services",
+    "status": "Active",
+    "registration_date": "2023-03-10",
+    "annual_revenue_range": "$50K-$100K",
+    "employee_count_range": "100-250",
+    "directors": [
+      {
+        "name": "Director 43",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 66,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230044",
+    "name": "Energy Company 44 Ltd",
+    "business_type": "Corporation",
+    "registered_address": "995 Main Road",
+    "city": "Princes Town",
+    "region": "Princes Town",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-681-8782",
+    "email": "info@company44.com",
+    "website": "https://company44.com",
+    "industry": "Energy",
+    "sub_industry": "Energy Services",
+    "status": "Dissolved",
+    "registration_date": "2023-01-18",
+    "annual_revenue_range": "$250K-$500K",
+    "employee_count_range": "50-100",
+    "directors": [
+      {
+        "name": "Director 44",
+        "position": "Director"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 96,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230045",
+    "name": "Retail Company 45 Ltd",
+    "business_type": "Sole Proprietor",
+    "registered_address": "724 Independence Square",
+    "city": "Point Fortin",
+    "region": "Point Fortin",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-628-8253",
+    "email": "info@company45.com",
+    "website": "https://company45.com",
+    "industry": "Retail",
+    "sub_industry": "Retail Services",
+    "status": "Active",
+    "registration_date": "2023-04-17",
+    "annual_revenue_range": "$250K-$500K",
+    "employee_count_range": "100-250",
+    "directors": [
+      {
+        "name": "Director 45",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 66,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230046",
+    "name": "Construction Company 46 Ltd",
+    "business_type": "Limited Liability",
+    "registered_address": "695 Independence Square",
+    "city": "Port of Spain",
+    "region": "Port of Spain",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-656-9077",
+    "email": "info@company46.com",
+    "website": "https://company46.com",
+    "industry": "Construction",
+    "sub_industry": "Construction Services",
+    "status": "Active",
+    "registration_date": "2023-06-11",
+    "annual_revenue_range": "$10M-$50M",
+    "employee_count_range": "250-500",
+    "directors": [
+      {
+        "name": "Director 46",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 66,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230047",
+    "name": "Manufacturing Company 47 Ltd",
+    "business_type": "Partnership",
+    "registered_address": "674 Ariapita Avenue",
+    "city": "Scarborough",
+    "region": "Scarborough",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-661-5225",
+    "email": "info@company47.com",
+    "website": "https://company47.com",
+    "industry": "Manufacturing",
+    "sub_industry": "Manufacturing Services",
+    "status": "Dissolved",
+    "registration_date": "2023-11-18",
+    "annual_revenue_range": "$5M-$10M",
+    "employee_count_range": "100-250",
+    "directors": [
+      {
+        "name": "Director 47",
+        "position": "Owner"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 96,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230048",
+    "name": "Healthcare Company 48 Ltd",
+    "business_type": "Sole Proprietor",
+    "registered_address": "42 Independence Square",
+    "city": "Port of Spain",
+    "region": "Port of Spain",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-692-6792",
+    "email": "info@company48.com",
+    "website": "https://company48.com",
+    "industry": "Healthcare",
+    "sub_industry": "Healthcare Services",
+    "status": "Dissolved",
+    "registration_date": "2023-12-05",
+    "annual_revenue_range": "$50K-$100K",
+    "employee_count_range": "250-500",
+    "directors": [
+      {
+        "name": "Director 48",
+        "position": "CEO"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 62,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230049",
+    "name": "Finance Company 49 Ltd",
+    "business_type": "Corporation",
+    "registered_address": "382 Main Road",
+    "city": "Arima",
+    "region": "Arima",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-682-9654",
+    "email": "info@company49.com",
+    "website": "https://company49.com",
+    "industry": "Finance",
+    "sub_industry": "Finance Services",
+    "status": "Active",
+    "registration_date": "2023-07-21",
+    "annual_revenue_range": "$500K-$1M",
+    "employee_count_range": "100-250",
+    "directors": [
+      {
+        "name": "Director 49",
+        "position": "CEO"
+      }
+    ],
+    "is_verified": true,
+    "verification_score": 63,
+    "last_updated": "2024-01-15"
+  },
+  {
+    "registration_number": "TRN20230050",
+    "name": "Retail Company 50 Ltd",
+    "business_type": "Sole Proprietor",
+    "registered_address": "898 Independence Square",
+    "city": "Diego Martin",
+    "region": "Diego Martin",
+    "country": "Trinidad and Tobago",
+    "phone": "+1-868-682-3025",
+    "email": "info@company50.com",
+    "website": "https://company50.com",
+    "industry": "Retail",
+    "sub_industry": "Retail Services",
+    "status": "Dissolved",
+    "registration_date": "2023-02-20",
+    "annual_revenue_range": "$100K-$250K",
+    "employee_count_range": "1-10",
+    "directors": [
+      {
+        "name": "Director 50",
+        "position": "Director"
+      }
+    ],
+    "is_verified": false,
+    "verification_score": 92,
+    "last_updated": "2024-01-15"
+  }
+]
