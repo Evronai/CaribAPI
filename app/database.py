@@ -2,6 +2,16 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from app.config import settings
+import sys
+
+# Log database connection (safe, hides credentials)
+db_url = settings.database_url
+if '@' in db_url:
+    # Hide credentials: show only after @
+    display_url = '...@' + db_url.split('@')[-1]
+else:
+    display_url = db_url
+print(f"🔌 Connecting to database: {display_url}", file=sys.stderr)
 
 # Create engine
 engine = create_engine(

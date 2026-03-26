@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     contact_email: str = "contact@caribapi.com"
     
     # Database
-    database_url: str = os.getenv("DATABASE_URL", "postgresql://user:password@localhost/caribapi")
+    database_url: str = os.getenv("DATABASE_URL", "sqlite:///./caribapi.db")
     
     # Redis
     redis_url: str = os.getenv("REDIS_URL", "redis://localhost:6379")
