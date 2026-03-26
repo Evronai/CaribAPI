@@ -22,7 +22,7 @@ class User(BaseModel):
     api_key = Column(String, unique=True, index=True, nullable=False)
     
     # Subscription
-    plan = Column(Enum(UserPlan), default=UserPlan.FREE, nullable=False)
+    plan = Column(Enum(UserPlan, native_enum=False), default=UserPlan.FREE, nullable=False)
     stripe_customer_id = Column(String, unique=True, index=True)
     stripe_subscription_id = Column(String, unique=True, index=True)
     
