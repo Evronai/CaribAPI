@@ -1,6 +1,8 @@
 from pydantic_settings import BaseSettings
+from pydantic import validator, Field
 from typing import List, Optional
 import os
+import json
 
 class Settings(BaseSettings):
     # API
@@ -26,8 +28,8 @@ class Settings(BaseSettings):
     algorithm: str = os.getenv("ALGORITHM", "HS256")
     access_token_expire_minutes: int = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "30"))
     
-    # CORS
-    allowed_origins: List[str] = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000,http://localhost:8000").split(",")
+    # CORS - Store as string, will be parsed by validator
+    allowed_origins_str: str = Field(default="http://localhost:3000,http://localhost:8000", alias="ALLOWED_ORIGINS")
     
     # Rate Limiting
     rate_limit_free: int = int(os.getenv("RATE_LIMIT_FREE", "100"))
@@ -37,7 +39,27 @@ class Settings(BaseSettings):
     # Data
     data_update_frequency_hours: int = 24  # Update data daily
     
+    @property
+    def allowed_origins(self) -> List[str]:
+        """Parse allowed_origins_str into list, handling both JSON and comma-separated formats."""
+        value = self.allowed_origins_str
+        if not value:
+            return []
+        
+        # Handle wildcard
+        if value.strip() == "*":
+            return ["*"]
+        
+        # Try to parse as JSON first
+        try:
+            return json.loads(value)
+        except json.JSONDecodeError:
+            # If not JSON, treat as comma-separated string
+            return [origin.strip() for origin in value.split(",") if origin.strip()]
+    
     class Config:
         env_file = ".env"
+        # Allow population by field name (not just alias)
+        populate_by_name = True
 
 settings = Settings()
