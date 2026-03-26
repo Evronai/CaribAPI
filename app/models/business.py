@@ -1,9 +1,9 @@
 from sqlalchemy import Column, String, Integer, Text, Boolean, DateTime, Float, JSON
 from sqlalchemy.dialects.postgresql import ARRAY
 from sqlalchemy.sql import func
-from app.models.base import Base
+from app.models.base import BaseModel
 
-class Business(Base):
+class Business(BaseModel):
     __tablename__ = "businesses"
     
     # Basic info

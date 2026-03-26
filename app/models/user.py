@@ -2,14 +2,14 @@ from sqlalchemy import Column, String, Integer, Boolean, DateTime, ForeignKey, E
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 from enum import Enum as PyEnum
-from app.models.base import Base
+from app.models.base import BaseModel
 
 class UserPlan(str, PyEnum):
     FREE = "free"
     PRO = "pro"
     BUSINESS = "business"
 
-class User(Base):
+class User(BaseModel):
     __tablename__ = "users"
     
     # Basic info
